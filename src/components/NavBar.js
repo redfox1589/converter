@@ -1,15 +1,12 @@
-import Nav from 'react-bootstrap/Nav';
+import React from 'react';
+import "./NavBar.css";
 
 function NavBar() {
   return (
-    <Nav fill variant="tabs" defaultActiveKey="/home">
-      <Nav.Item>
-        <Nav.Link href="/">Конвертер</Nav.Link>
-      </Nav.Item>
-      <Nav.Item>
-        <Nav.Link href="/pages/news">Новости</Nav.Link>
-      </Nav.Item>
-    </Nav>
+    <div className='NavBar' align="center">
+      <a href='/' className='NavBarButton'>Конвертер</a>
+      <a href='/news' className='NavBarButton'>Новости</a>
+    </div>
   );
 }
 

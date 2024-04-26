@@ -1,0 +1,26 @@
+.NavBarButton{
+    margin: 10px;
+    text-decoration: none;
+    background-color: rgb(43, 180, 226);
+    color: azure;
+    padding: 5px;
+    border-radius: 5px;
+    /*box-shadow: 0px 0px 15px rgb(29, 65, 247);*/
+    border: solid;
+    border-width: 2px;
+    border-color: rgb(97, 194, 226);
+    box-shadow: 1px 1px 5px rgb(22, 93, 117);
+}
+
+.NavBarButton:hover{
+    background-color: rgb(38, 161, 202);
+}
+
+.NavBarButton:active{
+    transform: scale(0.5);
+    box-shadow: 1px 1px 2px rgb(22, 93, 117);
+}
+
+.NavBar{
+
+}
